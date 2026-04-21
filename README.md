@@ -17,6 +17,7 @@ The analysis aims to:
 
 Identify the safest aircraft makes and models
 Compare the safety between small (≤20 passengers) and large (>20 passengers) aircraft
+
 Quantify:
 Fatal injury rate
 Serious injury rate
@@ -58,18 +59,23 @@ Unified categorical labels for consistency
 Created key safety metrics:
 
 fatal.rate = fatal injuries / total passengers
+
 serious.rate = serious injuries / total passengers
+
 injury.risk = fatal + serious injury rate
+
 destruction = binary aircraft loss indicator
+
 aircraft.id = Make + Model identifier
 
 ## Analysis Approach
-1. Aircraft Segmentation
+1. Aircraft
 
 Aircraft were divided into:
 
 Small aircraft: ≤ 20 passengers
 Large aircraft: > 20 passengers
+
 2. Safety Evaluation Metrics
 
 Aircraft safety was assessed using:
@@ -81,6 +87,7 @@ Aircraft destruction probability
 To ensure reliability:
 
 Only aircraft with ≥ 30 recorded incidents were included in model-level comparisons
+
 3. Manufacturer Analysis
 
 Manufacturers (Makes) were evaluated by:
@@ -97,12 +104,13 @@ Large aircraft generally demonstrate lower fatality rates per passenger
 * Environmental Factors
 Weather conditions significantly influence accident severity
 Poor visibility conditions increase the likelihood of fatal and serious injuries
-  * Flight Phase Risk
+* Flight Phase Risk
 Takeoff and landing phases are consistently the most dangerous stages of flight
 * Manufacturer Variation
 Safety performance varies significantly across manufacturers
 Some manufacturers consistently show lower injury and destruction rates
-  * Outputs
+
+  ## Outputs
 
 The project produces:
 
